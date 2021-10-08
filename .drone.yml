@@ -8,3 +8,8 @@ steps:
     commands:
       - go test
       - go build
+  - name: greeting
+    image: alpine
+    commands:
+      - echo hello
+      - echo world
