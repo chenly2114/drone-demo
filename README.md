@@ -1,2 +1,1 @@
 # drone-demo
-.
