@@ -3,13 +3,13 @@ type: docker
 name: default
 
 steps:
-  - name: greeting
-    image: alpine
-    commands:
-      - echo hello
-      - echo worl
-#  - name: test
-#    image: golang
+#  - name: greeting
+#    image: alpine
 #    commands:
-#      - go test
-#      - go build
+#      - echo hello
+#      - echo world
+  - name: test
+    image: golang
+    commands:
+      - go test
+      - go build
