@@ -1,16 +1,10 @@
-def main(ctx):
-    return {
-    "h"
-        "kind": "pipeline",
-        "hh":"ty",
-        "name": "default",
-        "steps": [
-        {
-            "name": "build",
-            "image": "alpine",
-            "commands": [
-                "echo hello world"
-            ]
-        }
-        ]
-    }
+kind: pipeline
+type: docker
+name: default
+
+steps:
+  - name: greeting
+    image: alpine
+    commands:
+      - echo hello
+      - echo world
