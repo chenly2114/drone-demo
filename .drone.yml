@@ -5,16 +5,11 @@ workspace:
   path: /usr/src/app
 
 steps:
-  #  - name: greeting
-  #    image: alpine
-  #    commands:
-  #      - echo hello
-  #      - echo world
   - name: test
     image: golang
     commands:
       - go test
-  - name: docker
+  - name: build
     image: plugins/docker
     settings:
       username:
@@ -22,3 +17,16 @@ steps:
       password:
         from_secret: docker_password
       repo: chenly2114/drone-ci-demo
+  - name: ssh commands
+    image: appleboy/drone-ssh
+    settings:
+      host:
+        from_secret: host
+      username:
+        from_secret: host_username
+      password:
+        from_secret: host_password
+      port: 22
+      script:
+        - echo hello
+        - echo world
