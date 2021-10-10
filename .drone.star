@@ -2,7 +2,7 @@
 def main(ctx):    # cxt提供了对仓库和构建元数据的访问
     return {
         "kind": "pipeline",
-        "name": "build",
+        "name": "default",
         "steps": [
         {
             "name": "build",
