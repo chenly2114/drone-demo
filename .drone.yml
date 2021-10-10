@@ -1,6 +1,8 @@
 kind: pipeline
 type: docker
 name: default
+workspace:
+  path: /usr/src/app
 
 steps:
   #  - name: greeting
@@ -12,7 +14,6 @@ steps:
     image: golang
     commands:
       - go test
-      - go build
   - name: docker
     image: plugins/docker
     settings:
