@@ -1,5 +1,6 @@
 def main(ctx):
     return {
+    "h"
         "kind": "pipeline",
         "hh":"ty",
         "name": "default",
