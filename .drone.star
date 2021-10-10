@@ -5,10 +5,11 @@ def main(ctx):
         "name": "default",
         "steps": [
         {
-            "name": "build",
-            "image": "alpine",
+            "name": "test",
+            "image": "golang",
             "commands": [
-                "echo hello world"
+                "go test",
+                "go build"
             ]
         }
         ]
