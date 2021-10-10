@@ -1,4 +1,4 @@
-def main(ctx)
+def main(ctx):
     return {
         "kind": "pipeline",
         "type": "docker",
