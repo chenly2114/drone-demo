@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: run
+name: runner
 workspace:
   path: /usr/src/app
 
