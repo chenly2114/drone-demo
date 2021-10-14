@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba46b69-539b-4785-8b58-9ddadb761159" name="Default Changelist" comment="" />
+    <list default="true" id="fba46b69-539b-4785-8b58-9ddadb761159" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,6 +161,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -172,22 +175,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="615" y="366" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1633846341617" />
-    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1633866231396">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom" timestamp="1633871770767">
+      <screen x="0" y="25" width="1792" height="1012" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1633866231396" />
-    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1633866231394">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="392" key="GridCell.Tab.0.bottom/0.25.1792.1012@0.25.1792.1012" timestamp="1633871770767" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center" timestamp="1633871770766">
+      <screen x="0" y="25" width="1792" height="1012" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1633866231394" />
-    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1633866231393">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="392" key="GridCell.Tab.0.center/0.25.1792.1012@0.25.1792.1012" timestamp="1633871770766" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left" timestamp="1633871770765">
+      <screen x="0" y="25" width="1792" height="1012" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1633866231393" />
-    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1633866231395">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="392" key="GridCell.Tab.0.left/0.25.1792.1012@0.25.1792.1012" timestamp="1633871770765" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right" timestamp="1633871770766">
+      <screen x="0" y="25" width="1792" height="1012" />
     </state>
     <state width="1750" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1633866231395" />
+    <state width="1750" height="392" key="GridCell.Tab.0.right/0.25.1792.1012@0.25.1792.1012" timestamp="1633871770766" />
     <state x="405" y="196" key="SettingsEditor" timestamp="1633690092052">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
